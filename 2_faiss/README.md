@@ -86,13 +86,6 @@ Hasil eksperimen menunjukkan bahwa:
 
 ---
 
-## 🧠 Perbandingan Konsep (dengan Annoy)
-
-- **FAISS**: menggunakan brute-force yang dioptimasi (IndexFlatL2)  
-- **Annoy**: menggunakan tree-based approximation  
-- FAISS cenderung lebih stabil dan cepat untuk dataset ini
-
----
 
 ## 🧠 Teknologi yang Digunakan
 

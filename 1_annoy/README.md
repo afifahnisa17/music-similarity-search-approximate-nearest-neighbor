@@ -61,16 +61,16 @@ Dampaknya:
 
 ## ⚖️ Parameter K (Jumlah Tetangga)
 
-Parameter **K** menentukan jumlah kandidat yang diambil dari hasil pencarian.
+Parameter **K** menentukan jumlah lagu yang diambil dari hasil pencarian.
 
-- K kecil → hasil lebih ketat, tetapi bisa kehilangan kandidat relevan  
+- K kecil → hasil lebih ketat, tetapi bisa kehilangan lagu relevan  
 - K besar → lebih banyak kandidat, meningkatkan peluang menemukan lagu yang relevan setelah filtering  
 
 Dalam implementasi ini:
 - K retrieval dibuat lebih besar (misalnya 20)
 - Hasil akhir yang ditampilkan dibatasi (misalnya top 5)
 
-Hal ini dilakukan untuk menjaga keseimbangan antara **cakupan hasil dan relevansi**.
+Hal ini dilakukan untuk menjaga keseimbangan antara **hasil dan relevansi**.
 
 ---
 

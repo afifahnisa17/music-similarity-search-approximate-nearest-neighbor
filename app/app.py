@@ -12,8 +12,8 @@ st.title("🎵 Music Recommender (FAISS)")
 # Menggunakan decorator cache agar data tidak di-load ulang setiap kali widget berubah
 @st.cache_data
 def load_data():
-    X = np.load("../0_data/processed/features.npy")
-    meta = pd.read_csv("../0_data/processed/meta.csv")
+    X = np.load("0_data/processed/features.npy")
+    meta = pd.read_csv("0_data/processed/meta.csv")
     return X, meta
 
 @st.cache_resource

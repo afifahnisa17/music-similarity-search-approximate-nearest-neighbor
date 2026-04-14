@@ -1,5 +1,7 @@
 # 🎧 Music Recommendation System menggunakan Approximate Nearest Neighbors (ANN)
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://music-recommendation-faiss.streamlit.app/)
+
 ## 🚀 Ringkasan Proyek
 
 Proyek ini membangun sistem rekomendasi musik berbasis **vector similarity search** menggunakan fitur audio dari Spotify.

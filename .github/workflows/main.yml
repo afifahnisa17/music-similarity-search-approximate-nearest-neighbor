@@ -16,3 +16,12 @@ jobs:
       - name: Run App Tests
         run: |
           pytest tests/test_app.py
+
+  build-docker:
+    needs: test-app  # Syarat poin nomor 3
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build Docker Image
+        run: |
+          docker build -t music-similarity-app:latest .
